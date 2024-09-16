@@ -48,13 +48,13 @@ def preview_data(**kwargs):
 
 
 default_args = {
-    'owner': 'datamasterylab.com',
+    'owner': 'harisavraam',
     'start_date': datetime(2024, 1, 25),
     'catchup': False
 }
 
 dag = DAG(
-    'cargr',
+    'Cargr',
     default_args = default_args,
     schedule=timedelta(days=1)
 )
